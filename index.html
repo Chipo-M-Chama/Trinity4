@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Trinity Health Institute – Empowering Lives Through Care, Education, and Hope. Clinics in Lusaka and Kitwe, Zambia.">
+  <title>Trinity Health Institute</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- External CSS & JS -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Landing Page with Background Video -->
+  <div class="landing-page">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="vid/WhatsApp Video 2025-04-30 at 14.21.58.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay">
+      <div class="landing-content">
+        <h1>Trinity Health Institute</h1>
+        <p class="tagline">Empowering Lives Through Care, Education, and Hope</p>
+
+        <div class="statistics">
+          <div class="stat-item"><span class="stat-number">1000+</span><br>Successful Treatments</div>
+          <div class="stat-item"><span class="stat-number">5</span><br>Years of Expertise</div>
+          <div class="stat-item"><span class="stat-number">50+</span><br>Skilled Professionals</div>
+        </div>
+
+        <div class="interactive-words">
+          <span class="moving-word">Quality Care</span>
+          <span class="moving-word">Innovative Solutions</span>
+          <span class="moving-word">Trusted Partner</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Upper Ribbon (Header Navigation) -->
+<header>
+  <div class="upper-ribbon">
+    <div class="logo-container">
+      <img src="img/logo.png1.png" alt="Trinity Health Institute Logo" class="logo" />
+    </div>
+
+    <nav class="main-nav">
+      <ul class="nav-menu">
+        <li><button onclick="showSection('importance')">Importance of Hearing</button></li>
+        
+        <li class="dropdown">
+          <button class="dropdown-toggle">Branches <i class="fas fa-caret-down"></i></button>
+          <ul class="dropdown-content">
+            <li><button onclick="showSection('lusaka')">Lusaka Facility</button></li>
+            <li><button onclick="showSection('kitwe')">Kitwe Facility</button></li>
+          </ul>
+        </li>
+
+        <li><button onclick="showSection('future')">Future Prospects</button></li>
+        <li><button onclick="showSection('partners')">Partners</button></li>
+
+        <li class="dropdown">
+          <button class="dropdown-toggle">Our Work <i class="fas fa-caret-down"></i></button>
+          <ul class="dropdown-content">
+            <li><button onclick="showSection('treatments')">Treatments</button></li>
+            <li><button onclick="showSection('technology')">Technology</button></li>
+            <li><button onclick="showSection('community')">Community Outreach</button></li>
+          </ul>
+        </li>
+
+        <li><button onclick="showSection('about-us')">About Us</button></li>
+        <li><button onclick="showSection('contact-info')">Contact Us</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Importance of Hearing -->
+<section id="importance-section" class="content-section hidden">
+  <div class="hero-image">
+    <img src="hero-image.jpg" alt="Elderly man with hearing aid smiling outdoors">
+  </div>
+
+  <div class="importance-container">
+    <div class="importance-text">
+      <h2>The Importance of Hearing</h2>
+
+      <div class="side-image left">
+        <img src="image1.jpg" alt="Audiologist testing patient's hearing">
+        <p>
+          Hearing is not just about sound—it’s about connection...
+        </p>
+      </div>
+
+      <div class="side-image right">
+        <img src="image2.jpg" alt="Senior woman using a digital hearing aid">
+        <p>
+          Untreated hearing loss can lead to feelings of isolation...
+        </p>
+      </div>
+
+      <div class="inline-image">
+        <img src="image3.jpg" alt="Child undergoing ear screening" />
+        <p class="caption">Early childhood screening helps prevent speech and language delays.</p>
+      </div>
+
+      <p>
+        In children, hearing is foundational for learning speech...
+      </p>
+
+      <div class="inline-image">
+        <img src="image4.jpg" alt="Musician wearing ear protection at a concert" />
+        <p class="caption">Hearing protection should be used in loud workplaces and music venues.</p>
+      </div>
+
+      <p>
+        Exposure to loud environments, infections, and medications...
+      </p>
+
+      <div class="inline-image">
+        <img src="image5.jpg" alt="Mobile hearing care unit in rural community" />
+        <p class="caption">Outreach services bring hearing care to remote and underserved communities.</p>
+      </div>
+
+      <p>
+        Technological advancements have made hearing support more accessible...
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Branches Main Page -->
+<section id="branches" class="content-section">
+  <div class="branches-container">
+    <h2 class="section-title">Our Branches</h2>
+
+    <div class="branch-list">
+      <a href="lusaka-branch.html" class="branch-link">Lusaka Facility</a>
+      <a href="kitwe-branch.html" class="branch-link">Kitwe Facility</a>
+    </div>
+  </div>
+</section>
+
+   <!-- Future -->
+<section id="future" class="content-section">
+  <div class="future-container">
+    <h2 class="section-title">Our Aspirations for the Future</h2>
+
+    <div class="future-hero">
+      <img src="future-vision.jpg" alt="Visionary outlook of Trinity Institute" />
+    </div>
+
+    <!-- Inline Image Paragraph Blocks -->
+    <div class="future-block">
+      <div class="future-text">
+        <p>
+          At Trinity Hearing Institute, our mission extends beyond the present...
+        </p>
+      </div>
+      <div class="future-image right">
+        <img src="expansion-map.jpg" alt="Map showing expansion plan" />
+      </div>
+    </div>
+
+    <div class="future-block">
+      <div class="future-image left">
+        <img src="future-lab.jpg" alt="Rendering of future diagnostic lab" />
+      </div>
+      <div class="future-text">
+        <p>
+          We aim to build one of the region’s most advanced audiology research...
+        </p>
+      </div>
+    </div>
+
+    <div class="future-block">
+      <div class="future-text">
+        <p>
+          Recognizing the role of technology in scaling healthcare, we are investing...
+        </p>
+      </div>
+      <div class="future-image right">
+        <img src="tele-audiology.jpg" alt="Tele-audiology technology in use" />
+      </div>
+    </div>
+
+    <div class="future-block">
+      <div class="future-image left">
+        <img src="community-engagement.jpg" alt="Community awareness event" />
+      </div>
+      <div class="future-text">
+        <p>
+          We are committed to expanding our outreach programs...
+        </p>
+      </div>
+    </div>
+
+    <div class="future-block full-width">
+      <img src="sustainable-goals.jpg" alt="Sustainable development aligned goals" />
+      <p class="full-width-text">
+        Finally, all our future initiatives align with the United Nations Sustainable Development Goals...
+      </p>
+    </div>
+
+    <!-- Future Timeline -->
+    <section id="future-timeline" class="timeline-section">
+      <h2>Our Roadmap to the Future</h2>
+      <div class="timeline-container">
+
+        <div class="timeline-item" data-year="2025">
+          <div class="timeline-content left">
+            <h4>2025: Expansion to Eastern Province</h4>
+            <p>Begin operations in Chipata to provide hearing diagnostics and therapy...</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2026">
+          <div class="timeline-content right">
+            <h4>2026: Launch of Tele-Audiology Platform</h4>
+            <p>Enable remote hearing tests and counseling through mobile and web apps...</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2027">
+          <div class="timeline-content left">
+            <h4>2027: Establishment of Research & Training Center</h4>
+            <p>Create a regional hub for audiology education, training 100+ specialists annually...</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2028">
+          <div class="timeline-content right">
+            <h4>2028: National Awareness Campaign</h4>
+            <p>Launch campaigns to promote early hearing screening in all public schools...</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-year="2030">
+          <div class="timeline-content left">
+            <h4>2030: Hearing for All Initiative</h4>
+            <p>Ensure at least 90% of Zambians with hearing impairment have access to care...</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section id="cta" class="cta-section">
+  <div class="cta-content">
+    <h2>Partner With Us for a Hearing-Healthy Zambia</h2>
+    <p>
+      Together, we can make hearing care accessible for every child, adult, and elder in Zambia...
+    </p>
+    <a href="#contact" class="cta-button">Become a Partner</a>
+  </div>
+</section>
+    <!-- Partners -->
+<section id="partners" class="content-section partners-section">
+  <h2>Our Trusted Partners</h2>
+  <p class="partners-intro">We collaborate with industry leaders to expand our impact and reach across Zambia and beyond.</p>
+
+  <div class="partners-logos">
+    <div class="partner-card">
+      <img src="images/starkey-logo.png" alt="Starkey Hearing Institute">
+      <h4>Starkey Hearing Institute</h4>
+      <p>Providing technical support, audiology training, and assistive devices to empower communities.</p>
+    </div>
+
+    <div class="partner-card">
+      <img src="images/ministry-health-logo.png" alt="Ministry of Health Zambia">
+      <h4>Ministry of Health</h4>
+      <p>Policy guidance, integration of hearing services in public health, and community mobilization.</p>
+    </div>
+
+    <div class="partner-card">
+      <img src="images/usaid-logo.png" alt="USAID">
+      <h4>USAID</h4>
+      <p>Capacity building and funding support for infrastructure and outreach in underserved areas.</p>
+    </div>
+
+    <div class="partner-card">
+      <img src="images/who-logo.png" alt="World Health Organization">
+      <h4>World Health Organization</h4>
+      <p>Global standards, technical expertise, and support in program implementation and monitoring.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Our Work -->
+<section id="our-work" class="content-section our-work-section">
+  <h2>What We Do</h2>
+  <p class="our-work-intro">
+    At Trinity Hearing, we are committed to restoring, protecting, and enhancing lives through comprehensive ear and hearing care services.
+    Here's how we make a difference:
+  </p>
+
+  <div class="our-work-grid">
+    <a href="treatments.html" class="work-card">
+      <img src="images/treatment-icon.png" alt="Treatments">
+      <h3>Treatments</h3>
+      <p>Personalized hearing aid fittings, auditory therapy, and ear wax removal services.</p>
+    </a>
+
+    <a href="technology.html" class="work-card">
+      <img src="images/technology-icon.png" alt="Technology">
+      <h3>Technology</h3>
+      <p>Advanced tools for evaluations, digital aids, and real-time diagnostics.</p>
+    </a>
+
+    <a href="outreach.html" class="work-card">
+      <img src="images/community-icon.png" alt="Community Outreach">
+      <h3>Community Outreach</h3>
+      <p>Mobile screening, sensitization campaigns, and home-based services.</p>
+    </a>
+
+    <a href="counseling.html" class="work-card">
+      <img src="images/counseling-icon.png" alt="Counseling">
+      <h3>Patient Counseling</h3>
+      <p>Guidance for families and individuals adapting to hearing loss and devices.</p>
+    </a>
+
+    <a href="education.html" class="work-card">
+      <img src="images/education-icon.png" alt="Education">
+      <h3>Education & Advocacy</h3>
+      <p>Awareness on preventable hearing loss and inclusion advocacy.</p>
+    </a>
+  </div>
+</section>
+
+    <!-- About Us -->
+<section id="about-us" class="content-section about-section">
+  <h2>About Trinity Hearing Institute</h2>
+
+  <div class="about-hero">
+    <img src="images/about-hero.jpg" alt="Trinity Institute Hero Image" class="about-image">
+    <div class="about-text">
+      <p><strong>Vision:</strong> To be a global leader in hearing health services and innovation.</p>
+      <p><strong>Mission:</strong> Providing compassionate, expert, and accessible care to transform lives through better hearing.</p>
+    </div>
+  </div>
+
+  <div class="our-story">
+    <h3>Our Story</h3>
+    <p>Founded in 2015, Trinity Hearing Institute began as a small hearing care center in Lusaka, driven by the passion to address hearing impairment in underserved communities. Over the years, it has grown into a multi-branch, nationally recognized institution offering a full spectrum of audiological services. With cutting-edge technology, outreach initiatives, and strong partnerships, we’ve become a lifeline for thousands of clients across Zambia.</p>
+  </div>
+
+  <div class="institution-highlights">
+    <div class="highlight-item">
+      <img src="images/achievements.png" alt="Achievements">
+      <h4>Key Achievements</h4>
+      <ul>
+        <li>Over 20,000 patients served since inception</li>
+        <li>Launched Zambia's first mobile ear-care van</li>
+        <li>Introduced low-cost digital hearing aids</li>
+        <li>Developed training programs for rural healthcare providers</li>
+      </ul>
+    </div>
+
+    <div class="highlight-item">
+      <img src="images/awards.png" alt="Awards">
+      <h4>Recognitions & Awards</h4>
+      <ul>
+        <li>2022 Ministry of Health Award for Rural Innovation</li>
+        <li>Starkey Excellence in Outreach Award (2021)</li>
+        <li>Zambia Healthcare Impact Recognition (2020)</li>
+      </ul>
+    </div>
+
+    <div class="highlight-item">
+      <img src="images/team-icon.png" alt="Meet the Team">
+      <h4>Our Team</h4>
+      <p>Our multidisciplinary team includes licensed audiologists, ENT specialists, community health workers, and speech therapists — all committed to personalized, patient-centered care.</p>
+    </div> <!-- History Timeline -->
+    <div class="timeline-section">
+      <h3>Milestones & Growth</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="year">2015</span>
+          <p>Trinity Hearing Institute is founded in Lusaka, Zambia with a mission to improve hearing access.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2017</span>
+          <p>Opened second branch in Kitwe, expanding services beyond hearing to include balance diagnostics.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2020</span>
+          <p>Launched community outreach programs across rural provinces using mobile ear clinics.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2022</span>
+          <p>Received multiple awards for innovation and community service.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2024</span>
+          <p>Introduced AI-powered diagnostic tools and enhanced therapy for children with speech delays.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Testimonials -->
+    <div class="testimonials-section">
+      <h3>What Our Clients Say</h3>
+      <div class="testimonial-slider">
+        <div class="testimonial">
+          <p>"The team helped my daughter hear for the first time. Their compassion is unmatched!"</p>
+          <span>- Mrs. Mwansa, Lusaka</span>
+        </div>
+        <div class="testimonial">
+          <p>"Thanks to their mobile clinics, I didn’t have to travel far for expert care."</p>
+          <span>- Mr. Phiri, Central Province</span>
+        </div>
+        <div class="testimonial">
+          <p>"Professionally run, beautifully equipped — a true gem in Zambian healthcare."</p>
+          <span>- Dr. Chileshe, Kitwe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+   <!-- Contact Info -->
+<section id="contact-info" class="content-section contact-section">
+  <div class="contact-hero">
+    <h2>Contact Information</h2>
+    <p>Reach out to us — we’re here to help you hear better.</p>
+  </div>
+
+  <div class="contact-details">
+    <div class="contact-box">
+      <img src="images/lusaka-facility.jpg" alt="Lusaka Facility" class="contact-img">
+      <h3>Lusaka Facility</h3>
+      <p><strong>Phone:</strong> <a href="tel:+260123456789">+260 123 456 789</a></p>
+      <p><strong>Email:</strong> <a href="mailto:lusaka@trinityhearing.org">lusaka@trinityhearing.org</a></p>
+      <p><strong>Address:</strong> 12 Independence Avenue, Lusaka, Zambia</p>
+    </div>
+
+    <div class="contact-box">
+      <img src="images/kitwe-facility.jpg" alt="Kitwe Facility" class="contact-img">
+      <h3>Kitwe Facility</h3>
+      <p><strong>Phone:</strong> <a href="tel:+260987654321">+260 987 654 321</a></p>
+      <p><strong>Email:</strong> <a href="mailto:kitwe@trinityhearing.org">kitwe@trinityhearing.org</a></p>
+      <p><strong>Address:</strong> 21 Ndola Road, Kitwe, Zambia</p>
+    </div>
+  </div>
+
+  <!-- Optional Map Embed -->
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps?q=-15.418191909790039,28.30304527282715&z=17&hl=en" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</section>
+  <!-- Footer -->
+<footer class="footer-section">
+  <div class="footer-container">
+
+    <!-- Left: Logo & Social -->
+    <div class="footer-column">
+      <img src="img/logo.png.png" alt="Trinity Logo" class="footer-logo">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/TrinityHealthInstitute" target="_blank"><img src="img/facebook-icon.png.png" alt="Facebook" class="social-icon"></a>
+        <a href="https://wa.me/260123456789" target="_blank"><img src="img/whatsapp-icon.png.png" alt="WhatsApp" class="social-icon"></a>
+        <a href="https://www.instagram.com/TrinityHealthInstitute" target="_blank"><img src="img/instagram-icon.png.png" alt="Instagram" class="social-icon"></a>
+        <a href="mailto:contact@trinityhearing.org" target="_blank"><img src="img/email-icon.png.png" alt="Email" class="social-icon"></a>
+        <a href="https://twitter.com/TrinityHealthInstitute" target="_blank"><img src="img/twitter-icon.png.png" alt="Twitter" class="social-icon"></a>
+      </div>
+    </div>
+
+    <!-- Center: Links -->
+    <div class="footer-column">
+      <ul class="footer-links">
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+      </ul>
+    </div>
+
+    <!-- Right: Feedback Form -->
+    <div class="footer-column">
+      <p><strong>Submit Feedback</strong></p>
+      <form action="submit_feedback.php" method="post" class="footer-form">
+        <input type="email" name="feedback-email" placeholder="Your Email" required>
+        <textarea name="feedback-message" placeholder="Your Feedback" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Hidden Sections for In-Page Navigation -->
+<section id="privacy-policy" class="hidden-section">
+  <h3>Privacy Policy</h3>
+  <p>We value your privacy. Any personal data collected on this site will be kept strictly confidential and used only for Trinity Health Institute service improvement and communication.</p>
+</section>
+
+<section id="terms" class="hidden-section">
+  <h3>Terms & Conditions</h3>
+  <p>By using our website, you agree to our standard terms including responsible use, data protection compliance, and fair access to services. These terms are updated periodically.</p>
+</section>
+
+<section id="faq" class="hidden-section">
+  <h3>Frequently Asked Questions (FAQs)</h3>
+  <p><strong>Q:</strong> Do I need a referral to book an appointment?<br>
+  <strong>A:</strong> No referral is needed — you can contact us directly to schedule a consultation.</p>
+
+  <p><strong>Q:</strong> Are your hearing aids covered by insurance?<br>
+  <strong>A:</strong> We work with most insurance providers. Please consult your insurer for coverage details.</p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
